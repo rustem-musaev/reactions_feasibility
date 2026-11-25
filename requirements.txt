@@ -1,0 +1,8 @@
+# Versions are a best guess for late 2020, when this code was written.
+# Python 3.7 or 3.8 is recommended.
+CGRtools>=4.0,<4.1
+CIMtools>=4.0,<4.1
+tensorflow>=2.3,<2.16   # needs Keras 2 (Keras 3 changed metrics and .h5 saving)
+scikit-learn
+pandas
+numpy
